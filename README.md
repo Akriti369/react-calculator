@@ -39,6 +39,8 @@ Building this project helped me practice and solidify core React fundamentals:
 
 ## 🚀 How to Run Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+```bash
+git clone [https://github.com/Akriti369/react-calculator.git](https://github.com/Akriti369/react-calculator.git)
+cd react-calculator
+npm install
+npm run dev
