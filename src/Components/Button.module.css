@@ -1,0 +1,28 @@
+.Buttonsdisplay {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px;
+}
+
+.button {
+  height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c3a3a;
+  background-color: #ffe8e8;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #d99b9b; /* Cute 3D tactile press look */
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #d99b9b;
+}

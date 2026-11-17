@@ -1,0 +1,21 @@
+.input {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.input input {
+  width: 100%;
+  height: 48px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4a2c2c;
+  background-color: #fff5f5;
+  text-align: right;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
